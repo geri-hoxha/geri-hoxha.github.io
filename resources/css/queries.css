@@ -1,0 +1,155 @@
+/* me te vogla se row qe eshte 1140px */
+@media only screen and (max-width: 1200px) {
+  .hero-text {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+/* nga tableta te vegjel ne tableta te medhenj, pra nga 768px der ne 1023px*/
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .steps-box {
+    margin-top: 10px;
+  }
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+  .works-step {
+    margin-bottom: 40px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 60px;
+  }
+  .app-screen {
+    width: 50%;
+  }
+  .icon-small {
+    font-size: 90%;
+    width: 17px;
+    margin-right: 2px;
+  }
+  .city-feature {
+    font-size: 90%;
+  }
+  .plan-price {
+    font-size: 250%;
+  }
+  .plan-box {
+    width: 100%;
+    margin-left: 0;
+  }
+  .contact-form {
+    width: 80%;
+  }
+}
+
+/* Nga telefona ne tableta te vegjel, nga 481px ne 767px*/
+@media only screen and (max-width: 767px) {
+  .mobile-icon {
+    display: inline-block;
+  }
+  .main-nav {
+    float: left;
+    margin-top: 35px;
+    margin-left: 25px;
+    display: none;
+  }
+  .main-nav li {
+    display: block;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    padding: 10px 0;
+    border: none;
+    display: block;
+    font-size: 100%;
+  }
+  .sticky .main-nav {
+    margin-top: 10px;
+  }
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+  }
+  .sticky .mobile-icon {
+    margin-top: 10px;
+  }
+  .sticky .mobile-icon i {
+    color: #555;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-text {
+    padding: 0 4%;
+  }
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 4px 0;
+  }
+  .long-copy {
+    width: 100%;
+    margin-left: 0;
+  }
+  .app-screen {
+    width: 40%;
+  }
+  .steps-box:first-child {
+    text-align: center;
+  }
+  .logo {
+    width: 70px;
+  }
+  .btnn-app img {
+    margin-top: 10px;
+  }
+  .plan-box {
+    margin-bottom: 20px;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .section-cities img {
+    width: 80%;
+    margin-top: 10px;
+  }
+  .works-step div {
+    padding: 4px;
+    height: 35px;
+    width: 35px;
+    font-size: 120%;
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 20px 0;
+  }
+  .btn-2 {
+    margin-top: 10px;
+  }
+}

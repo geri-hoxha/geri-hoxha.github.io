@@ -1,0 +1,286 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav ul li {
+    margin: 0 10px;
+    border-radius: 6px;
+    padding: 3px 15px;
+}
+
+nav ul li:hover {
+    background-image: linear-gradient(to top, #3fd2ce, #42decf, #4be9ce, #5af4cb, #6dffc6);
+}
+
+nav ul li:hover a {
+    color: white !important;
+}
+
+nav ul li.active {
+    background-image: linear-gradient(to top, #3fd2ce, #42decf, #4be9ce, #5af4cb, #6dffc6);
+}
+
+nav ul li.active a {
+    color: white !important;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.banner {
+    background-image: linear-gradient(to top, #3fd2ce, #42decf, #4be9ce, #5af4cb, #6dffc6);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    min-height: 60vh;
+    color: white;
+}
+
+.banner .btn-show {
+    background-image: linear-gradient(to bottom, #ff6c54, #ff5f54, #ff5155, #ff4056, #ff2b59);
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.services .services-cards .service-card {
+    text-align: center;
+}
+
+.services .services-cards .service-card h6 {
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.services .services-cards .service-card p {
+    color: gray;
+    font-size: 15px;
+}
+
+.services .btn-services, .phones-section .btn-order {
+    background-image: linear-gradient(to bottom, #ff6c54, #ff5f54, #ff5155, #ff4056, #ff2b59);
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.google-section {
+    background-image: linear-gradient(to bottom, #ff6c54, #ff5f54, #ff5155, #ff4056, #ff2b59);
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.portfolio {
+    background-color: #5BEDC9;
+    color: white;
+}
+
+.portfolio .nav li a {
+    color: #232E3D;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.portfolio .nav li a.active {
+    color: white;
+}
+
+.portfolio .portfolio-card {
+    -webkit-transition: -webkit-transform 0.5s ease;
+    -moz-transition: -moz-transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+.portfolio .portfolio-card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.portfolio .portfolio-card .card-header {
+    background-color: #232E3D;
+    height: 200px;
+}
+
+.portfolio .portfolio-card .card-body {
+    background-color: white;
+}
+
+.portfolio .portfolio-card .card-body h6 {
+    color: #232E3D;
+}
+
+.portfolio .portfolio-card .card-body p {
+    color: gray;
+    font-size: 15px;
+}
+
+.portfolio .arrow-down {
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 7px;
+}
+
+.portfolio .arrow-down i {
+    color: #5BEDC9;
+}
+
+.statistics {
+    background-color: #233537;
+    color: white;
+    padding: 80px 0 60px 0;
+}
+
+.statistics .statistic-card p {
+    color: #13B1A1;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.team .team-card {
+    -webkit-transition: -webkit-transform 0.5s ease;
+    -moz-transition: -moz-transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+.team .team-card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.team .team-card .card-header {
+    background-color: #232E3D;
+    height: 200px;
+}
+
+.team .team-card .card-body {
+    background-image: linear-gradient(to left top, #3fd2ce, #42decf, #4be9ce, #5af4cb, #6dffc6);
+}
+
+.team .team-card .card-body h5 {
+    color: #414E4D;
+}
+
+.team .team-card .card-body p {
+    font-size: .9rem;
+    color: #414E4D;
+}
+
+.subscribe {
+    background-color: #233537;
+    padding: 80px 0 60px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.subscribe .btn-subscribe {
+    background-color: transparent;
+    color: white;
+    border-radius: 0px;
+    border: 1px solid #13B1A1;
+    padding: 10px 50px 15px 50px;
+    font-size: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.subscribe .btn-subscribe:hover {
+    box-shadow: 0px 0px 0px 10px rgba(19,177,161,1);
+-webkit-box-shadow: 0px 0px 10px 0px rgba(19,177,161,1);
+-moz-box-shadow: 0px 0px 10px 0px rgba(19,177,161,1);
+}
+
+.additional-info {
+    background-image: linear-gradient(to left, #3fd2ce, #42decf, #4be9ce, #5af4cb, #6dffc6);
+    padding-top: 100px;
+}
+
+.additional-info h2, .additional-info p {
+    color: white;
+}
+
+.additional-info .right-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.additional-info .phone-img {
+    margin-bottom: -41px;
+    border-radius: 30px;
+}
+
+.testimonials {
+    padding: 100px 0;
+}
+
+.testimonials .testimonial-card {
+    background-image: linear-gradient(to left top, #3fd2ce, #42decf, #4be9ce, #5af4cb, #6dffc6);
+    padding: 40px 10px;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    -moz-transition: -moz-transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+.testimonials .testimonial-card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.contact-section {
+    background-image: linear-gradient(to bottom, #ff6c54, #ff5f54, #ff5155, #ff4056, #ff2b59);
+    color: white;
+    padding: 100px 0;
+}
+
+.contact-section input, .contact-section textarea {
+    background-color: transparent !important;
+    border: 1px solid white;
+    border-radius: 0px;
+    padding: 25px 20px;
+}
+
+.contact-section input::placeholder, .contact-section textarea::placeholder {
+    color: white;
+}
+
+.contact-section .btn-dark {
+    border-radius: 0px;
+    padding: 15px 30px;
+}
+
+footer {
+    background-color: #233537;
+    color: white;
+}
+
+footer a {
+    color: #13B1A1 !important;
+}

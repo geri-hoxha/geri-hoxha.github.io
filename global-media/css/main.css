@@ -1,0 +1,291 @@
+.header {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 85vh;
+}
+
+.header .navbar {
+    padding: 20px 0;
+}
+
+.header .navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.header .navbar ul li a {
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+.left-to-right {
+  position: relative;
+}
+
+.left-to-right:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #f3a032;
+  transition: 0.3s ease-in-out;
+}
+
+.left-to-right:hover:after {
+  width: 100%;
+}
+
+.header .navbar ul .btn-light {
+    border-radius: 2em;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .8rem;
+    margin: 0 20px;
+}
+
+.header .header-content {
+    color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header .header-content h1 {
+    font-size: 3.5rem;
+}
+
+.header .header-content .btn-signup {
+    background-image: linear-gradient(to right, #dd4126, #e55c24, #eb7425, #f08b29, #f4a132);
+    color: white;
+    border-radius: 2em;
+    padding: 13px 40px;
+    font-weight: bold;
+    font-size: .9rem;
+    text-transform: uppercase;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    -moz-transition: -moz-transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+.header .header-content .btn-signup:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.services {
+    margin-top: -8%;
+}
+
+.services .service-card {
+    background: white;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    padding: 2rem 2.5rem 3rem 2.5rem;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    -moz-transition: -moz-transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+.services .service-card .btn-join {
+    background: #f3a032;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 2em;
+    font-size: .9rem;
+    padding: 10px 25px;
+}
+
+.services .service-card a {
+    color: #282828;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.services .service-card:hover {
+    background: #f3a032;
+    color: white;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.services .service-card:hover .btn-join {
+    background: white;
+    color: #282828;
+}
+
+.services .service-card:hover a {
+    color: white;
+}
+
+.why-we h1 {
+    color: #282828;
+}
+
+.why-we p {
+    color: #767676;
+}
+
+.worksheet {
+    background: #f6f6f6;
+    padding: 80px;
+}
+
+.worksheet h1 {
+    color: #282828;
+}
+
+.worksheet .work-card {
+    padding: 50px 0;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    transition: all .2s ease-in-out;
+}
+
+.worksheet .work-card:hover {
+    background: #f3a032;
+}
+
+.worksheet .work-card h2 {
+    color: #282828;
+}
+
+.worksheet .work-card:hover h2 {
+    color: white;
+}
+
+.phone-section {
+    padding: 80px;
+}
+
+.phone-section h1 {
+    color: #282828;
+}
+
+.phone-section .left-text {
+    padding: 100px 0;
+}
+
+.phone-section .left-text p {
+    color: #767676;
+}
+
+.phone-section .left-text a {
+    color: #f3a032;
+    font-weight: bold;
+}
+
+.phone-section .left-text img {
+    margin: 0 10px 0 0;
+}
+
+.agencies {
+    background-color: #f6f6f6;
+    padding: 80px;
+}
+
+.agencies h1 {
+    color: #282828;
+}
+
+.agencies p {
+    color: #767676;
+}
+
+.publisher-jumbotron {
+    background-image: url("../images/jumbotron.jpg");
+}
+
+.publisher-jumbotron h1 {
+    color: white;
+}
+
+.publisher-jumbotron p {
+    color: #767676;
+}
+
+.facts {
+    padding: 80px;
+}
+
+.facts h1 {
+    color: #282828;
+}
+
+.facts p {
+    color: #767676;
+}
+
+.facts .fact-card h6 {
+    color: #282828;
+    font-weight: bold;
+}
+
+.facts .fact-card {
+    border-bottom: 3px solid transparent;
+    padding-bottom: 20px;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    -moz-transition: -moz-transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+.facts .fact-card:hover {
+    border-bottom: 3px solid #f3a032;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.map-jumbotron {
+    background-image: url("../images/map.png");
+}
+
+.map-jumbotron .contact-info {
+    background-color: white;
+    max-width: 600px;
+    min-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.map-jumbotron .contact-info h6 {
+    color: #767676;
+}
+
+.map-jumbotron .contact-info h2 {
+    color: #282828;
+}
+
+footer p {
+    color: #767676;
+}
+
+footer p a {
+    color: #f3a032 !important;
+}
+
+footer .social-media a {
+    color: #767676;
+    font-size: 1.25rem;
+    margin: 0 10px;
+    transition: all .2s ease-in-out;
+}
+
+footer .social-media a:hover {
+    color: #f3a032;
+}

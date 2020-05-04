@@ -154,7 +154,7 @@ h2 {
 .testimony i {
   color: #fff;
 }
-.testimony p {
+.testimony .item p {
   margin-bottom: 0;
   font-weight: 700;
 }

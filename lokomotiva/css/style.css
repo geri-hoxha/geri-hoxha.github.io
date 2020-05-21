@@ -4,7 +4,7 @@ html {
 }
 header {
   background: linear-gradient(45deg, #f0f0f0 0%, white 55%, white 100%);
-  min-height: 100vh;
+  height: 100vh;
   padding-left: 90px;
 }
 nav {
@@ -24,6 +24,13 @@ nav li a {
   font-weight: 700;
   color: #000 !important;
 }
+
+.navbar-dark .navbar-toggler {
+  border: 1px solid #ddd !important;
+  background-color: #ddd !important;
+}
+
+nav ul li.active a,
 nav li a:hover {
   color: #1a91da !important;
 }
@@ -125,7 +132,7 @@ h2 {
   width: 120px !important;
   border-radius: 50%;
   object-fit: cover;
-  margin: 60px auto 0 auto;
+  margin: 0 auto;
 }
 .comment {
   max-width: 600px;
@@ -197,6 +204,12 @@ footer .icons i {
   border-radius: 50%;
   text-align: center;
   padding-top: 12px;
+  transition: all 0.2s ease-in-out;
+}
+footer i:hover,
+footer button:hover {
+  color: #fff;
+  background-color: #1da1f2;
 }
 
 footer h3 {
@@ -210,10 +223,16 @@ footer h3 {
 }
 footer button {
   background-color: transparent;
-  border: 2px solid #1a91da;
+  border: 2px solid #1da1f2;
   padding: 10px 30px;
+  color: #6b6868;
+  transition: all 0.2s ease-in-out;
 }
+
 footer .first-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 125px 0;
 }
 .second-part {
@@ -240,6 +259,9 @@ footer .first-part {
   margin-left: 20px;
   transition: all 0.2s ease-in-out;
 }
+.nav-footer a:first-child {
+  margin-left: 0px;
+}
 .nav-footer a:hover {
   color: #585454;
 }
@@ -254,5 +276,41 @@ footer .first-part {
     padding: 6px 14px;
   }
 }
-@media (max-width: 760px) {
+@media (max-width: 768px) {
+  header {
+    padding: 0 80px;
+  }
+  nav {
+    padding: 0 !important;
+    margin: 10px 0 40px 0;
+  }
+  .box {
+    margin-bottom: 70px;
+  }
+  .column-button,
+  footer .icons {
+    text-align: center;
+  }
+  footer h3 {
+    margin: 40px 0;
+  }
+  footer .first-part {
+    padding: 90px 0;
+  }
+  .author,
+  .nav-footer {
+    justify-content: center;
+  }
+  .nav-footer {
+    margin: 10px 0;
+  }
+}
+@media (max-width: 576px) {
+  header {
+    padding: 0 30px 50px 30px;
+    height: 100%;
+  }
+  .testimony {
+    padding: 65px 0;
+  }
 }

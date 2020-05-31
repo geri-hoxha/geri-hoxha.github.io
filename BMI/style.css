@@ -1,0 +1,56 @@
+html,
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.navbar-brand{
+    text-transform: uppercase;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    outline: 3px solid #C0C0C0;
+    background-color: #fff;
+    border-radius: 50%;
+    object-fit: cover;
+}
+nav{
+    background-color: #C0C0C0;
+}
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.calc-button{
+    padding: 10px 20px;
+    background-color: rgba(0, 128, 0, 0.829);
+    color: #fff;
+    transition: all .2s ease-in-out;
+    display: inline;
+    border-radius: 4px;
+  
+}
+.calc-button:hover{
+    text-decoration: none !important;
+    background-color: green;
+    color: #fff;
+    
+}
+.calc-box{
+    background-color: #ddd;
+    padding: 30px;
+}
+.calc-box label{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.calc-box input{
+    width: 90%;
+}
+::-webkit-input-placeholder{
+    margin-left:20px !important;
+}

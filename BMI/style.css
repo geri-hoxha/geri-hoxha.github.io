@@ -1,56 +1,87 @@
 html,
-body{
+body {
     font-family: 'Roboto Slab', serif;
 }
-.navbar-brand{
+
+.navbar-brand {
     text-transform: uppercase;
 }
-.logo{
-    width: 90px;
-    height: 90px;
-    outline: 3px solid #C0C0C0;
-    background-color: #fff;
-    border-radius: 50%;
-    object-fit: cover;
+
+
+nav {
+    background-color: #F4D03F;
 }
-nav{
-    background-color: #C0C0C0;
-}
-.intro-text{
+
+.intro-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
-.calc-button{
-    padding: 10px 20px;
-    background-color: rgba(0, 128, 0, 0.829);
-    color: #fff;
-    transition: all .2s ease-in-out;
-    display: inline;
-    border-radius: 4px;
-  
+
+.calc-box {
+    border: 1px solid #000;
+    background-color: #F7F9F9;
+    padding: 20px 0 30px 1rem;
 }
-.calc-button:hover{
-    text-decoration: none !important;
-    background-color: green;
-    color: #fff;
-    
+
+.nav-tabs {
+    border-bottom: none !important;
 }
-.calc-box{
-    background-color: #ddd;
-    padding: 30px;
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border: 1px solid #000 !important;
+    font-weight: 600;
+    border-bottom: none !important;
+    background-color: #F7F9F9;
+    color: #000;
+
 }
-.calc-box label{
+
+.nav-tabs .nav-link {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-tabs .nav-link:hover {
+    border: 1px solid transparent !important;
+    color: #000;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active:hover {
+    border: 1px solid #000 !important;
+    color: #000;
+}
+
+.labels {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+.calc-box label {
     color: #000;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
+    margin-bottom: 0em;
+    margin-bottom: 20px;
+}
 
+.calc-box input {
+    margin-bottom: 20px;
 }
-.calc-box input{
-    width: 90%;
-}
-::-webkit-input-placeholder{
-    margin-left:20px !important;
+
+.result,
+.result-2 {
+    background-color: #34495E;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 40%;
+    border-radius: 4px;
+    padding: 5px 0 5px 5px;
+    display: none;
 }

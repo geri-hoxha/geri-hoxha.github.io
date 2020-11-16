@@ -6,12 +6,12 @@ const Item=(props)=>{
 
   
     return (
-      <div >
-        <img src="#" alt="img" />
-    <h4>{props.name}</h4>
-    <span>{props.price}</span>
-    <p>{props.desc}</p>
-     
+      <div className='one-item' >
+        <div className='cart-header'> 
+        <h3>{props.name}</h3>
+        <span>{props.price}$</span>
+        </div>
+        <p className='cart-body'>{props.desc}</p>
       </div>
     );
     

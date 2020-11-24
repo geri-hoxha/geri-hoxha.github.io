@@ -58,8 +58,16 @@ const clearProfile = () => {
     profile.innerHTML = '';
 }
 
-searchBtn.addEventListener('click', () => {
+const search=()=>{
     showData();
     clearField();
     clearProfile();
+}
+
+searchBtn.addEventListener('click', search)
+
+document.addEventListener('keypress',(e)=>{
+    if(e.keyCode===13){
+        search();
+    }
 })
